@@ -30,12 +30,16 @@ pygmentsUseClasses = true
 	
 	# List of sections support disqus comments
 	disqusSections = [ "post" ]
+
 	# Site meta description
-	description = "Sweet little Hugo's theme for personal website or blog."
+	description = "Kylexlau's Weblog, a simple tech blog."
+
 	# Site's Tagline (Subtitle or Keyword)
-	tagline = "Nothing sweeter than this"
+	tagline = "The lyf so short, the craft so long to lerne"
+
 	# If true give attribution to this theme
 	themeAttrib = true
+
 	# URL to license file, can be outside of your domain
 	licenseURL = "/about/license"
 
@@ -50,10 +54,13 @@ pygmentsUseClasses = true
 
 	# Color of your website's accent
 	colorTheme = "#ff8181"
+
 	# Maximum number of item in Latest Posts or Works
 	latestCount = 3
+
 	# Path to site's favicon image
 	faviconImg = ""
+
 	# Date format in item list
 	dateFmt = "Jan 02, 2006"
 
