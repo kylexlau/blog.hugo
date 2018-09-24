@@ -1,4 +1,4 @@
-baseURL = "http://192.168.123.16:1313"
+baseURL = "http://kylexlau.github.io/"
 title = "Kylexlau's Weblog"
 theme = "manis"
 
@@ -65,7 +65,6 @@ pygmentsUseClasses = true
 	# Social Links
 	email = "kylexlau@gmail.com"
 	github = "https://github.com/kylexlau/"
-	# twitter = "https://twitter.com/yuri_boya"
 
 
 # Language Configuration
