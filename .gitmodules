@@ -2,3 +2,7 @@
 	path = public
 	url = https://github.com/kylexlau/kylexlau.github.com.git
 	branch = master
+[submodule "manis"]
+    path = themes/manis
+    url = https://github.com/yursan9/manis-hugo-theme themes/manis
+    branch = master
