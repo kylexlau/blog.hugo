@@ -3,7 +3,7 @@ title = "Kylexlau's Weblog"
 theme = "manis"
 
 # Copyright notice. Note: You can use HTML tag here
-copyright = "&copy; 2018 kyle x lau"
+copyright = "&copy; 2021 kyle lau"
 pluralizeListTitles = false
 
 # Minimum number of posts before paginate navigation show up
@@ -19,14 +19,6 @@ defaultContentLanguage = "en"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
-[menu]
-    [[menu.main]]
-        name = "Post"
-        url = "/post"
-    [[menu.main]]
-        name = "About"
-        url = "/about"
-
 [taxonomies]
 	tag = "tags"
 
@@ -36,9 +28,6 @@ pygmentsUseClasses = true
 	# Custom CSS
 	customCSS = []
 	
-	# List of sections support disqus comments
-	# disqusSections = [ "post" ]
-
 	# Site meta description
 	description = "Kylexlau's Weblog, a simple tech blog."
 
