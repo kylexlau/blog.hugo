@@ -54,7 +54,7 @@ pygmentsUseClasses = true
 	# Configure which section for Latest Posts
 	postSection = ["post"]
 	# Configure which section for Latest Works
-	workSection = ["work"]
+	workSection = ""
 
 	# 404 Configuration
 	head404 = "Sorry, I can't find what you want."
