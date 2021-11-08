@@ -1,6 +1,6 @@
 baseURL = "http://kylexlau.github.io/"
 title = "Kylexlau's Weblog"
-theme = "manis"
+theme = "manis-hugo-theme"
 
 # Copyright notice. Note: You can use HTML tag here
 copyright = "&copy; 2018 kyle x lau"
@@ -10,7 +10,7 @@ pluralizeListTitles = false
 paginate = 10
 
 # Your disqus shortname
-disqusShortname = "xlau"
+disqusShortname = ""
 
 # Edit this if you want to translate your blog
 defaultContentLanguage = "en"
@@ -18,6 +18,14 @@ defaultContentLanguage = "en"
 # Code Highlighting (Chroma)
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+
+[menu]
+    [[menu.main]]
+        name = "Post"
+        url = "/post"
+    [[menu.main]]
+        name = "About"
+        url = "/about"
 
 [taxonomies]
 	tag = "tags"
@@ -29,7 +37,7 @@ pygmentsUseClasses = true
 	customCSS = []
 	
 	# List of sections support disqus comments
-	disqusSections = [ "post" ]
+	# disqusSections = [ "post" ]
 
 	# Site meta description
 	description = "Kylexlau's Weblog, a simple tech blog."
@@ -44,9 +52,9 @@ pygmentsUseClasses = true
 	licenseURL = "/about/license"
 
 	# Configure which section for Latest Posts
-	postSection = "post"
+	postSection = ["post"]
 	# Configure which section for Latest Works
-	workSection = "work"
+	workSection = ["work"]
 
 	# 404 Configuration
 	head404 = "Sorry, I can't find what you want."
@@ -56,7 +64,7 @@ pygmentsUseClasses = true
 	colorTheme = "#ff8181"
 
 	# Maximum number of item in Latest Posts or Works
-	latestCount = 3
+	latestCount = 5
 
 	# Path to site's favicon image
 	faviconImg = ""
