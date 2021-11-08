@@ -31,7 +31,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} 
           external_repository: kylexlau/kylexlau.github.com
-          publish_dir: ""
+          publish_dir: ./public
           keep_files: false # remove existing files
           publish_branch: master  # deploying branch
           commit_message: ${{ github.event.head_commit.message }}
