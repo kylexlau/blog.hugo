@@ -1,6 +1,6 @@
 baseURL = "http://kylexlau.github.io/"
 title = "Kylexlau's Weblog"
-theme = "manis-hugo-theme"
+theme = "manis"
 
 # Copyright notice. Note: You can use HTML tag here
 copyright = "&copy; 2018 kyle x lau"
