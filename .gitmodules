@@ -2,3 +2,9 @@
 	path = public
 	url = https://github.com/kylexlau/kylexlau.github.com.git
 	branch = master
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
+[submodule "themes/typo"]
+	path = themes/typo
+	url = https://github.com/tomfran/typo.git

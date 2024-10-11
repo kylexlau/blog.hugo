@@ -5,6 +5,6 @@ description = "About Me"
 draft = false
 +++
 
-A DBA, know much about Oracle and MySQL and know enough about Python and programming.
+A tech guy, know much about Oracle and MySQL and know enough about Python and
+programming.
 
-Learning MongoDB, C++ and Go right now.
