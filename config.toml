@@ -19,7 +19,7 @@ colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hi!'
+# homeIntroTitle = 'Hi!'
 homeIntroContent = """
 The lyf so short, the craft so long to lerne
 """
@@ -29,7 +29,7 @@ homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
 
 # Lists parameters
-paginationSize = 15
+paginationSize = 10
 listSummaries = false
 listDateFormat = '2 Jan 2006'
 
