@@ -53,7 +53,7 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 ## 新工具
 
-以下这些项目的目的不是用替换传统的旧工具，而是新类型的命令行工具。
+以下这些项目的目的不是替换传统的旧工具，而是新类型的命令行工具。
 
 - [`jq`][jq]: `sed` for JSON
 - [`fzf`][fzf]: fuzzy finder
@@ -105,3 +105,5 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 [delta]: https://github.com/dandavison/delta
 [moreutils]: https://joeyh.name/code/moreutils/
 [atuin]: https://github.com/atuinsh/atuin
+[lazygit]: https://github.com/jesseduffield/lazygit
+[lazydocker]: https://github.com/jesseduffield/lazydocker
