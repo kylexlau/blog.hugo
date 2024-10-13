@@ -1,2 +1,3 @@
-# blog.hugo
-a blog by hugo
+# kylexlau.github.io
+
+A blog by hugo with typo theme.
