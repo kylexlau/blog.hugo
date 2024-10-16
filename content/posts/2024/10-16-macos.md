@@ -47,11 +47,21 @@ draft: false
 - 编辑器：目前是`Emacs`、`Neovim`、`VSCode`都在用，使用最频繁的是`Emacs`，有自己花了不少时间定制的一套配置文件，`Neovim`则是搭配`lazyvim`使用。
 - 浏览器：使用Google Chrome，通过账号同步相关配置。
 
-另外值得一提的，发现了一个非常好的工具[`chezmoi`][che]，使用Go语言编写，可用于管理命令行相关配置文件，非常符合我的使用需求。
+`emacs`编辑器我一般使用最新版源码编译安装，并且定期同步源码更新重编译：
 
-笔记记录软件使用`obsidian`，电子书管理沿用`zotero`。快捷启动使用`raycast`，之前是只用`spotlight`，这次发现`raycast`很不错。
+```bash
+git clone -v https://github.com/emacs-mirror/emacs.git
+ ./configure --with-gnutls=ifavailable --with-native-compilation --with-tree-sitter
+make -j8
+make install -j8
+mv nextstep/Emacs.app /Applications
+```
 
-另外值得一提的是[`Hammerspoon`][hammer]这个工具，用它可以定制不少实用的系统功能，如连上公司Wifi系统自动静音、休眠自动关闭蓝牙、切换到不同的程序自动切换中英文输入法，也可以用它实现窗口平铺管理的功能，非常非常好用。
+其他的常用软件还有，笔记记录软件使用`obsidian`，电子书管理沿用`zotero`，快捷启动使用`raycast`（之前用`spotlight`，这次发现`raycast`挺好用），RSS阅读器用`netnewswire`，命令行的文档查阅用`tldr`，虚拟化和容器管理使用`orbstack`
+
+非开源软件类的，办公用Office和WPS，文件同步用`google-drive`和`adrive`，即时通讯用腾讯的四件套`wechat`, `qq`, WeCom 和 `tencent-meeting`，图形化的文档查阅工具用Dash，PDF编辑用Adobe Acrobat。
+
+另外值得一提的，发现了一个非常好的工具[`chezmoi`][che]，使用Go语言编写，可用于管理命令行相关配置文件，非常符合我的使用需求。[`Hammerspoon`][hammer]这个工具定制不少实用的系统功能，如连上公司Wifi系统自动静音、休眠自动关闭蓝牙、切换到不同的程序自动切换中英文输入法，也可以用它实现窗口平铺管理的功能，非常好用。
 
 ## 参考
 
