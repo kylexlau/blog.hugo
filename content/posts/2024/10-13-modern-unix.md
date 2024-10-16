@@ -3,7 +3,7 @@ title: "现代Unix命令行"
 date: "2024-10-13"
 toc: true
 autonumber: true
-readTime: true
+readTime: false
 math: true
 ---
 
@@ -13,7 +13,7 @@ math: true
 
 [Alacritty][alacritty] 可以取代 iTerm2，[Zellij][zellij] 可以取代 `tmux` 和`screen`。[fish][fish]可以取代 `zsh` 或 `bash`，Fish官网声称它是90后年轻人的shell，`fish` 自然要搭配 [`oh-my-fish`][omf] 使用才行。
 
-```shell
+```bash
 brew install --cask alacritty
 brew install fish zellij 
 ```
@@ -21,7 +21,7 @@ brew install fish zellij
 
 [Neovim][nvim] 可取代 `vi` 和 `vim`，需要配套安装 [Lazyvim][lazyvim]，才能更好发挥它的作用。我还是 Emacs 的用户，不过这算是图形界面的工具了，很少会在命令行下使用它，而 `nvim` 则基本都是在终端下启动和使用的。
 
-```shell
+```bash
 brew install nvim
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 ```
@@ -59,7 +59,8 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 - [`fzf`][fzf]: fuzzy finder
 - [`delta`][delta]: syntax-highlighting pager (`git-delta`)
 - [`atuin`][atuin]: magical shell history
-- [`moreutils`][moreutils]: 一系列的新工具
+- [`moreutils`][moreutils]: 一系列的新工具。其中`vidir`非常好用，使用文本编辑器
+  进行批量重命名文件和删除文件等操作。
 - [`lazygit`][lazygit], [`lazydocker`][lazydocker]: TUI for `git` and `docker`
   
 ## 参考
