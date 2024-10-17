@@ -21,7 +21,8 @@ hideHeader = false
 # Intro on main page, content is markdown
 # homeIntroTitle = 'Hi!'
 homeIntroContent = """
-The lyf so short, the craft so long to lerne
+*Ars longa, vita brevis*\n
+*The lyf so short, the craft so long to lerne*\n
 """
 
 # Collection to display on home
