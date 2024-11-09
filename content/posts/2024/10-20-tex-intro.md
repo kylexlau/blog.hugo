@@ -1,5 +1,5 @@
 ---
-title: "Tex 入门指南"
+title: "TeX 入门指南"
 date: "2024-10-20"
 toc: true
 autonumber: true
@@ -14,7 +14,7 @@ draft: false
 pandoc -s tex-intro.tex -o tex-intro.md
 ```
 
-## Tex 简介
+## TeX 简介
 
 TeX 是伟大的计算机科学家 Donald E. Knuth 为写作他的经典书籍《计算机程序设计艺术》 而创造的一个排版引擎，1977 年开始开发，1982 年发布，在 1989 年宣布 TeX 所有功能冻结，后续只修改 Bug。TeX 以卓越的稳定性、跨平台和几乎没有 bug 而著称，尤其是其方便而强大的数学公式排版能力，无出其右者。TeX 读作\"Tech\"，与汉字『泰赫』发音相近。
 
@@ -159,14 +159,14 @@ TeX 衍生工具最大的一次改进，是 20 世纪 90 年代出现的 pdfTeX�
 
 这两本书是系统创造者自己写的，虽然年代比较久远，但经典永不过时：
 
--   The TeX Book by Donald E. Knuth \@1984
--   LaTeX A Document Preparation System User's Guide and Reference Manual by Leslie Lamport \@1994
+- *The TeX Book* by Donald E. Knuth \@1984
+- *LaTeX A Document Preparation System User's Guide and Reference Manual* by Leslie Lamport \@1994
 
 Addison-Wesley 出版社的 Tools and Techniques for Computer Typesetting系列书籍：
 
--   The LaTeX Companion, 2nd edition \@2004
--   The LaTeX Graphics Companion, 2nd edition \@2008
--   Guide to LaTeX, 4th edition \@2004
+- *The LaTeX Companion*, 2nd edition \@2004
+- *The LaTeX Graphics Companion*, 2nd edition \@2008
+- *Guide to LaTeX*, 4th edition \@2004
 
 ## 参考链接
 
