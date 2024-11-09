@@ -62,7 +62,7 @@ This is an unsupported configuration, likely to break in the future and leave yo
 至于`yabai`的配置，也是在作者[本人配置](https://github.com/koekeishiya/dotfiles)的基础上做扩展修改。我不习惯使用自动平铺窗口模式，默认配置还是使用传统的浮动窗口，同时也开启系统自带的Stage Manager窗口管理模式。当前主要使用`yabai`对窗口进行一些快速操作，用`skhd`绑定一些常用快捷键。
 
 ```shell
-# 不适用平铺模式
+# 不使用平铺模式
 yabai -m config layout float
 
 # borders配置
@@ -174,9 +174,7 @@ function zellij_tab_name_update --on-variable PWD
         set tab_name ''
         if git rev-parse --is-inside-work-tree >/dev/null 2>&1
             set git_root (basename -s .git (git config --get remote.origin.url))
-            set git_prefix (git rev-parse --show-prefix)
-            set tab_name "$git_root/$git_prefix"
-            set tab_name (string trim -c / "$tab_name") # Remove trailing slash
+            set tab_name (string trim -c / "$git_root")
         else
             set tab_name $PWD
             if test "$tab_name" = "$HOME"
@@ -188,5 +186,4 @@ function zellij_tab_name_update --on-variable PWD
         command nohup zellij action rename-tab $tab_name >/dev/null 2>&1 &
     end
 end
-
 ```
