@@ -153,7 +153,7 @@ program = "/opt/homebrew/bin/fish"
 args = ["-l", "-c", "zellij attach --index 0 || zellij"]
 ```
 
-`zellij`主要基于默认配置做一些修改。配置文件的格式为`kdl`，有点陌生的文件格式。
+`zellij`主要基于默认配置做一些修改。配置文件的格式为[`kdl`](https://kdl.dev/)，有点陌生的文件格式。
 
 ```bash
 # 精简界面信息
