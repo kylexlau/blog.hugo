@@ -33,9 +33,7 @@ highlight_color = colors.blue
 ```
 ## 窗口
 
-根据`yabai`的官方[wiki](https://github.com/koekeishiya/yabai/wiki)安装，安装需要
-关闭系统完整性保护SIP（System Integrity Protection），需重启系统进行配置，略麻烦
-一点。SIP有一个行为，会影响某些场景下软件运行的性能，在系统在运行任何软件之前，会把当前执行文件做一个校验和，然后通过网络请求发送给苹果服务器来检测是否恶意软件。
+根据`yabai`的官方[wiki](https://github.com/koekeishiya/yabai/wiki)安装，安装需要关闭系统完整性保护SIP（System Integrity Protection），需重启系统进行配置，略麻烦一点。SIP有一个行为，会影响某些场景下软件运行的性能，在系统在运行任何软件之前，会把当前执行文件做一个校验和，然后通过网络请求发送给苹果服务器来检测是否恶意软件。
 
 ```bash
 # 关闭SIP部分保护项目
@@ -124,10 +122,7 @@ fi
 
 ## 终端
 
-终端主要是使用`alacritty`取代`iterm2`，用`zellij`取代`tmux`。`alacritty`的配置主
-要是字体，另外默认App图标比较丑，需要换一个。`zellij`相关配置要调整更多，一方面
-取消界面显示的过多冗余信息，另一方面配置下自动重命名tab。至于`fish`，其实默认配
-置就很不错了，主要只是增加了`starship`工具来配置命令提示符。
+终端主要是使用`alacritty`取代`iterm2`，用`zellij`取代`tmux`。`alacritty`的配置主要是字体，另外默认App图标比较丑，需要换一个。`zellij`相关配置要调整更多，一方面取消界面显示的过多冗余信息，另一方面配置下自动重命名tab。至于`fish`，其实默认配置就很不错了，主要只是增加了`starship`工具来配置命令提示符。
 
 `alacritty`配置内容：
 
